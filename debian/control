@@ -1,13 +1,13 @@
 Source: cw1.6005.sl14g08
-Section: unknown
+Section: php
 Priority: extra
 Maintainer: Sam Lewis <sl14g08@ecs.soton.ac.uk>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: <insert the upstream URL, if relevant>
 
 Package: cw1.6005.sl14g08
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
+Depends: php5-cli
+Description: Feed reader to get news headlines from the BBC News Website
  <insert long description, indented with spaces>
