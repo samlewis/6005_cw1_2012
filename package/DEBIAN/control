@@ -7,3 +7,7 @@ Depends: php5-cli
 Maintainer: Sam Lewis <sl14g08@ecs.soton.ac.uk>
 Provides: getnews
 Description: Feed reader to get news headlines from the BBC News Website
+ PHP based feed reader, which gets the top 10 news headlines from the
+ BBC News Website using the BBC News RSS feed.
+ If PHP version 5 or later is not installed on your computer, then it
+ will be downloaded as part of the installation process.
