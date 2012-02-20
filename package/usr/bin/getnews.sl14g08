@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php /usr/share/getnews.sl14g08/index.php
