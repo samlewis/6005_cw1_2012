@@ -2,7 +2,7 @@ Package: getnews.sl14g08
 Version: 1.0
 Priority: optional
 Architecture: all
-Essential: no
+Section: php
 Depends: php5-cli
 Maintainer: Sam Lewis <sl14g08@ecs.soton.ac.uk>
 Provides: getnews
