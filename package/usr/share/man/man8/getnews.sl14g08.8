@@ -1,0 +1,25 @@
+.TH GETNEWS.SL14G08 7 "February 21, 2012" "version 1.0"
+.SH NAME
+getnews.sl14g08 - Feed reader to get news headlines from the BBC News Website by default or a RSS feed specified.
+.SH SYNOPSIS
+.B rssreader [--feeds feed --items n]
+.SH DESCRIPTION
+PHP based feed reader, which by default gets the top 10 news headlines from the BBC News Website using the BBC News RSS feed.  The RSS feed and number of items to retrieve can be specified via the command line arguements.  The results are outputted back to the command line.
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-\- feeds feed
+The RSS feed to get results from
+.TP
+.B \-\- items n
+The number of items to return
+.SH FILES
+.I /etc/getnews.sl14g08/feeds.conf
+Global configuration file, used for setting BBC News as the defualt feed with 10 items
+.SH AUTHOR
+getnews.sl14g08 was written by Sam Lewis <sl14g08@ecs.soton.ac.uk>.
+.PP
+This manual page was written by Sam Lewis <sl14g08@ecs.soton.ac.uk>,
+for the Debian project (and may be used by others).
