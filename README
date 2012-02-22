@@ -1,6 +1,6 @@
-The Github link for this project can be found at: https://github.com/samlewis/6005_cw1_2012.git
+The Github link for this project can be found at: https://github.com/samlewis/6005_cw1_2012
 
-This project is a fork of the INFO6005 reference code which can be found at: https://github.com/info6005/6005_cw1_2012.git
+This project is a fork of the INFO6005 reference code which can be found at: https://github.com/info6005/6005_cw1_2012
 
 This project consists of a command line tool which has been packaged to the Debian standard and has been checked to be clean by the Lintian tool.  
 
@@ -11,5 +11,5 @@ To install the package please navigate to the folder the package file is located
 
 If you do not have the php5-cli package installed on your computer, an error warning will appear and the package will not work.  If you get an error message then enter the following at the command line:
 	sudo apt-get -f install
-Which will install the required dependancies for you.
+Which will install the required dependencies for you.
 
