@@ -46,7 +46,7 @@
 
 	# Read config from file
 	if (@!$config) {
-		$config_file = '/etc/getnews.sl14g08/feeds.conf';
+		$config_file = '/etc/cw1.6005.sl14g08/feeds.conf';
 		if (file_exists($config_file)) {
 			$config = conf_from_file($config_file);
 		}
